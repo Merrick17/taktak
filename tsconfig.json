@@ -30,5 +30,25 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "components/cart-01.tsx",
+    "components/cart-02.tsx",
+    "components/category-01.tsx",
+    "components/category-02.tsx",
+    "components/category-03.tsx",
+    "components/category-04.tsx",
+    "components/checkout-01.tsx",
+    "components/checkout-02.tsx",
+    "components/checkout-03.tsx",
+    "components/order-01.tsx",
+    "components/product-card-01.tsx",
+    "components/product-card-02.tsx",
+    "components/product-card-03.tsx",
+    "components/product-detail-01.tsx",
+    "components/promo-banner-01.tsx",
+    "components/promo-banner-02.tsx",
+    "components/promo-banner-03.tsx",
+    "components/review-01.tsx"
+  ]
 }

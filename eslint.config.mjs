@@ -12,6 +12,15 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Legacy shadcn preview components (missing deps, not part of the app)
+    "components/cart-*.tsx",
+    "components/category-*.tsx",
+    "components/checkout-*.tsx",
+    "components/order-*.tsx",
+    "components/product-card-*.tsx",
+    "components/product-detail-*.tsx",
+    "components/promo-banner-*.tsx",
+    "components/review-*.tsx",
   ]),
 ]);
 

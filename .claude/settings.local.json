@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx prisma:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(xargs -I {} sh -c 'echo \"=== {} ===\" && head -5 {}')",
+      "Bash(xargs -I {} sh -c 'echo \"=== {} ===\" && wc -l {}')",
+      "Bash([ -f \"/mnt/c/Users/safouene/taktakstorefront/components/blocks/commerce/$file.tsx\" ])",
+      "Bash(npm run *)"
+    ]
+  }
+}
